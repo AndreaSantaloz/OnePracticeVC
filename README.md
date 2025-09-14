@@ -20,7 +20,7 @@ en las columnas pares o impares
 ### Tarea 2: Imagen estilo mondrian
 Lo realizamos utilizando funciones de la libreria opencv y usando medidas aproximadas para realizar las 
 figuras geometricas 
-    ![Texto descriptivo de la imagen](./test-images/mondrianCreated.png)
+    ![Texto descriptivo de la imagen](./output-images/mondrianCreated.png)
 
 ### Tarea  3:Modificar los planos de color de la imagen
 [Texto del enlace](./output-images/Grabación%20de%20pantalla%202025-09-14%20224813.mp4)
