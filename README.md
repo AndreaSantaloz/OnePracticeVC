@@ -9,8 +9,26 @@ El cuaderno con la resolución de las tareas es [**entrega.ipynb**](entrega.ipyn
 1. Tablero de ajedrez
 2. Imagen estilo mondrian
 3. Modificar los planos de color de la imagen
-4. Encontrar el punto más claro y más oscuro de una imagen
+4. Encontrar el pixel más claro y más oscuro de una imagen
 5. Propuesta de Pop art: Minecraft
+
+### Tarea 1: Tablero de ajedrez 
+Lo realizamos utilizando un bucle doble donde teniendo en cuenta si la fila es par o impar ponemos cuadros
+en las columnas pares o impares
+    ![Texto descriptivo de la imagen](./test-images/CAMPO.jpg)
+
+### Tarea 2: Imagen estilo mondrian
+Lo realizamos utilizando funciones de la libreria opencv y usando medidas aproximadas para realizar las 
+figuras geometricas 
+    ![Texto descriptivo de la imagen](./test-images/CAMPO.jpg)
+
+### Tarea  3:Modificar los planos de color de la imagen
+
+### Tarea  4: Encontrar el pixel más claro y más oscuro de una imagen
+Lo realizamos examinamos cada pixel su RGB e ir comprobando al sumar las tres cantidades de RGB si es mayor que sería el más claro
+y el más oscuro el más aproximado a 0
+    ![Texto descriptivo de la imagen](./test-images/CAMPO.jpg)
+### Tarea  5: Propuesta de Pop art: Minecraft
 
 ### Librerías
 Las librerías usadas para la resolución son las siguientes:
