@@ -1,6 +1,8 @@
 # VC - Práctica 1
 ##### Luis Martín Pérez y Andrea Santana López
 
+---
+
 ### Descripción general
 
 El cuaderno con la resolución de las tareas es [**entrega.ipynb**](entrega.ipynb). Los ejercicios realizados son los siguientes:
