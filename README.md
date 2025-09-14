@@ -15,19 +15,19 @@ El cuaderno con la resolución de las tareas es [**entrega.ipynb**](entrega.ipyn
 ### Tarea 1: Tablero de ajedrez 
 Lo realizamos utilizando un bucle doble donde teniendo en cuenta si la fila es par o impar ponemos cuadros
 en las columnas pares o impares
-    ![Texto descriptivo de la imagen](./test-images/CAMPO.jpg)
+    ![Texto descriptivo de la imagen](./output-images/Tablero.png)
 
 ### Tarea 2: Imagen estilo mondrian
 Lo realizamos utilizando funciones de la libreria opencv y usando medidas aproximadas para realizar las 
 figuras geometricas 
-    ![Texto descriptivo de la imagen](./test-images/CAMPO.jpg)
+    ![Texto descriptivo de la imagen](./test-images/mondrianCreated.png)
 
 ### Tarea  3:Modificar los planos de color de la imagen
-
+[Texto del enlace](./output-images/Grabación%20de%20pantalla%202025-09-14%20224813.mp4)
 ### Tarea  4: Encontrar el pixel más claro y más oscuro de una imagen
-Lo realizamos examinamos cada pixel su RGB e ir comprobando al sumar las tres cantidades de RGB si es mayor que sería el más claro
+Lo realizamos pasando la imagen a RGB y luego examinamos cada pixel su RGB e ir comprobando al sumar las tres cantidades de RGB si es mayor que sería el más claro
 y el más oscuro el más aproximado a 0
-    ![Texto descriptivo de la imagen](./test-images/CAMPO.jpg)
+    ![Texto descriptivo de la imagen](./output-images/CAMPO.jpg)
 ### Tarea  5: Propuesta de Pop art: Minecraft
 
 ### Librerías
