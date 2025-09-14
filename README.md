@@ -27,4 +27,6 @@ Las referencias a imágenes y/o información usada son las siguientes:
 - **Bloques de minecraft:** [*List of block textures - Minecraft wiki*](https://minecraft.fandom.com/wiki/List_of_block_textures)
 
 #### Información
-- **Interpolación para redimensión**: [*Comparison gallery of image scaling algorithms - Wikipedia*](https://en.wikipedia.org/wiki/Comparison_gallery_of_image_scaling_algorithms)
+- **Algoritmos de redimensión de imágenes**: [*Comparison gallery of image scaling algorithms - Wikipedia*](https://en.wikipedia.org/wiki/Comparison_gallery_of_image_scaling_algorithms)
+- **Guía para calcular distancia Euclidiana con `numpy`**: [Calculate the euclidean distance using numpy - Geeks for Geeks](https://www.geeksforgeeks.org/python/calculate-the-euclidean-distance-using-numpy/)
+- **Guía para la magia de `numpy`**: [Vectorized operations in numpy - Geeks for Geeks](https://www.geeksforgeeks.org/numpy/vectorized-operations-in-numpy/)
