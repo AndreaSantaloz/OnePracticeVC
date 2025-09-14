@@ -23,11 +23,11 @@ figuras geometricas
     ![Texto descriptivo de la imagen](./output-images/mondrianCreated.png)
 
 ### Tarea  3:Modificar los planos de color de la imagen
-[Texto del enlace](./output-images/Grabación%20de%20pantalla%202025-09-14%20224813.mp4)
+[Texto del enlace](./output-images/VideoPlanos)
 ### Tarea  4: Encontrar el pixel más claro y más oscuro de una imagen
 Lo realizamos pasando la imagen a RGB y luego examinamos cada pixel su RGB e ir comprobando al sumar las tres cantidades de RGB si es mayor que sería el más claro
 y el más oscuro el más aproximado a 0
-    ![Texto descriptivo de la imagen](./output-images/CAMPO.jpg)
+    ![Texto descriptivo de la imagen](./output-images/CAMPOPROVE)
 ### Tarea  5: Propuesta de Pop art: Minecraft
 
 ### Librerías
