@@ -23,13 +23,26 @@ figuras geometricas
     ![Texto descriptivo de la imagen](./output-images/mondrianCreated.png)
 
 ### Tarea  3:Modificar los planos de color de la imagen
+Lo que hicimos fue redimensionar la captura de la camara para hacer un collage.Luego separamos los canales de color,después inicializamos los recuadros correspondientes.Luego se separan los planos RGB y se crean los colores primarios del esquema del color CMY.Tras realizar esto invertimos los colores en cada canal de colory experimentamos para obtener imagenes espeluznantes.Se crean los rows y se finaliza finalmente el collage agrupando en vertical.
+Para parar el video se debe pulsar la tecla ESC.
+
+Un ejemplo de como funciona esta en el siguiente enlace.
+
 [Texto del enlace](./output-images/VideoPlanos.mp4)
+
+
 ### Tarea  4: Encontrar el pixel más claro y más oscuro de una imagen
 Lo realizamos pasando la imagen a RGB y luego examinamos cada pixel su RGB e ir comprobando al sumar las tres cantidades de RGB si es mayor que sería el más claro
 y el más oscuro el más aproximado a 0
     ![Texto descriptivo de la imagen](./output-images/CAMPOPROVE.png)
-### Tarea  5: Propuesta de Pop art: Minecraft
 
+### Tarea  5: Propuesta de Pop art: Minecraft
+Se nos ocurrio realizar un pop art relacionado con minecraft donde primero cargamos las texturas de cada bloque y su color más representativo.
+El proceso fue recorrer las texturas que descargamos y devolver la del color más parecido,luego cargamos las texturas y las clasificamos según su color más prominente.
+Después de esto se coge la entrada de la camara y se divide entre el tamaño de las texturas y se reemplaza cada pixel por la textura que más se le parezca.
+Tras realizar este proceso se cambia la resolución para obetener el efecto de pixel art,para ello se interpola con el vecino más cercano.A continuación se crea una nueva imagen con el tamaño original y se rellena en un area de 16x16 con la textura de minecraft del color más parecido y se mostrara a la derecha la imagen con el art de minecraft y a la izquierda la imagen normal.
+Se verá en el link siguiente:
+[Texto del enlace](./output-images/VideoPlanos.mp4)
 ### Librerías
 Las librerías usadas para la resolución son las siguientes:
 
