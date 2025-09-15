@@ -9,9 +9,45 @@ El cuaderno con la resolución de las tareas es [**entrega.ipynb**](entrega.ipyn
 1. Tablero de ajedrez
 2. Imagen estilo mondrian
 3. Modificar los planos de color de la imagen
-4. Encontrar el punto más claro y más oscuro de una imagen
+4. Encontrar el pixel más claro y más oscuro de una imagen
 5. Propuesta de Pop art: Minecraft
 
+
+# Mostrar imagen de escala de grises
+plt.imshow(chess_board_img, cmap='gray',vmin=0, vmax=255)
+### Tarea 1: Tablero de ajedrez 
+Lo realizamos diviendo la imagen en una cuadricula de 8x8 ,luego inicializando la imagen
+donde vamos recorriendola en dos bucles anidados en donde si las filas son impares se rueda
+una posición a la derecha y si las filas son pares no se rueda una posición y finalmente
+se pinta las cuadriculas de las columnas pares en blanco.
+    ![Texto descriptivo de la imagen](./output-images/Tablero.png)
+
+### Tarea 2: Imagen estilo mondrian
+Se divide la imagen en una cuadricula 50 x 50 ,luego el resto de la división se pone como 
+margen para centrar la cuadricula.Después se crea una representación abstracta(clase) de rectangulo para simplificar el diseño y generamos un bucle donde se transforman las coordenadas de la cuadricula a las de la imagen y se guarda en disco para mostrarla.
+    ![Texto descriptivo de la imagen](./output-images/mondrianCreated.png)
+
+### Tarea  3:Modificar los planos de color de la imagen
+Lo que hicimos fue redimensionar la captura de la camara para hacer un collage.Luego separamos los canales de color,después inicializamos los recuadros correspondientes.Luego se separan los planos RGB y se crean los colores primarios del esquema del color CMY.Tras realizar esto invertimos los colores en cada canal de colory experimentamos para obtener imagenes espeluznantes.Se crean los rows y se finaliza finalmente el collage agrupando en vertical.
+Para parar el video se debe pulsar la tecla ESC.
+
+Un ejemplo de como funciona esta en el siguiente enlace.
+
+[Texto del enlace](./output-images/VideoPlanos.mp4)
+
+
+### Tarea  4: Encontrar el pixel más claro y más oscuro de una imagen
+Lo realizamos pasando la imagen a RGB y luego examinamos cada pixel su RGB e ir comprobando al sumar las tres cantidades de RGB si es mayor que sería el más claro
+y el más oscuro el más aproximado a 0
+    ![Texto descriptivo de la imagen](./output-images/CAMPOPROVE.png)
+
+### Tarea  5: Propuesta de Pop art: Minecraft
+Se nos ocurrio realizar un pop art relacionado con minecraft donde primero cargamos las texturas de cada bloque y su color más representativo.
+El proceso fue recorrer las texturas que descargamos y devolver la del color más parecido,luego cargamos las texturas y las clasificamos según su color más prominente.
+Después de esto se coge la entrada de la camara y se divide entre el tamaño de las texturas y se reemplaza cada pixel por la textura que más se le parezca.
+Tras realizar este proceso se cambia la resolución para obetener el efecto de pixel art,para ello se interpola con el vecino más cercano.A continuación se crea una nueva imagen con el tamaño original y se rellena en un area de 16x16 con la textura de minecraft del color más parecido y se mostrara a la derecha la imagen con el art de minecraft y a la izquierda la imagen normal.
+Se verá en el link siguiente:
+[Texto del enlace](./output-images/VideoPlanos.mp4)
 ### Librerías
 Las librerías usadas para la resolución son las siguientes:
 
