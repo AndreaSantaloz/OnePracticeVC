@@ -12,14 +12,19 @@ El cuaderno con la resolución de las tareas es [**entrega.ipynb**](entrega.ipyn
 4. Encontrar el pixel más claro y más oscuro de una imagen
 5. Propuesta de Pop art: Minecraft
 
+
+# Mostrar imagen de escala de grises
+plt.imshow(chess_board_img, cmap='gray',vmin=0, vmax=255)
 ### Tarea 1: Tablero de ajedrez 
-Lo realizamos utilizando un bucle doble donde teniendo en cuenta si la fila es par o impar ponemos cuadros
-en las columnas pares o impares
+Lo realizamos diviendo la imagen en una cuadricula de 8x8 ,luego inicializando la imagen
+donde vamos recorriendola en dos bucles anidados en donde si las filas son impares se rueda
+una posición a la derecha y si las filas son pares no se rueda una posición y finalmente
+se pinta las cuadriculas de las columnas pares en blanco.
     ![Texto descriptivo de la imagen](./output-images/Tablero.png)
 
 ### Tarea 2: Imagen estilo mondrian
-Lo realizamos utilizando funciones de la libreria opencv y usando medidas aproximadas para realizar las 
-figuras geometricas 
+Se divide la imagen en una cuadricula 50 x 50 ,luego el resto de la división se pone como 
+margen para centrar la cuadricula.Después se crea una representación abstracta(clase) de rectangulo para simplificar el diseño y generamos un bucle donde se transforman las coordenadas de la cuadricula a las de la imagen y se guarda en disco para mostrarla.
     ![Texto descriptivo de la imagen](./output-images/mondrianCreated.png)
 
 ### Tarea  3:Modificar los planos de color de la imagen
