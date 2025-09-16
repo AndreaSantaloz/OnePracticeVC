@@ -14,7 +14,6 @@ El cuaderno con la resolución de las tareas es [**entrega.ipynb**](entrega.ipyn
 
 
 # Mostrar imagen de escala de grises
-plt.imshow(chess_board_img, cmap='gray',vmin=0, vmax=255)
 ### Tarea 1: Tablero de ajedrez 
 Lo realizamos diviendo la imagen en una cuadricula de 8x8 ,luego inicializando la imagen
 donde vamos recorriendola en dos bucles anidados en donde si las filas son impares se rueda
